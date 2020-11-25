@@ -5,11 +5,6 @@
   border: 1px solid black;
 }
 
-.debug_annidato [class*='col-'] {
-  background-color: pink;
-  border: 1px solid red;
-}
-
 .debug .h_600 {
   height: 600px;
 }
@@ -50,5 +45,15 @@ section .jumbo {
 
 /* terza sezione */
 #designed {
+  background-color: #f3f5f9;
+}
+
+/* quinta sezione */
+#customers {
+  background-color: #0049ff;
+}
+
+/* sesta sezione */
+#development {
   background-color: #f3f5f9;
 }
