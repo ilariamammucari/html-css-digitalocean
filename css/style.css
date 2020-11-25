@@ -57,3 +57,12 @@ section .jumbo {
 #development {
   background-color: #f3f5f9;
 }
+
+/* footer */
+.footer_top {
+  background-color: #0049ff;
+}
+
+.footer_bottom {
+  background-color: #131c33;
+}
