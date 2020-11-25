@@ -9,6 +9,11 @@
   background-color: pink;
   border: 1px solid red;
 }
+
+.debug .h_600 {
+  height: 600px;
+}
+
 .debug .h_500{
   height: 500px;
 }
@@ -19,16 +24,26 @@
   height: 300px;
 }
 
+.debug .h_200 {
+  height: 200px;
+}
+
 .debug section {
   padding: 30px 0;
 }
 /* header */
-header {
-  background-color: #0067ff;
-}
-
 
 /* jumbotron */
 section .jumbo {
-  background-image: url('https://d9hhrg4mnvzow.cloudfront.net/try.digitalocean.com/developerbrand/4fae3026-bg-hero-do-v4.svg');
+  background-image: url('../img/bg-home-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+/* main */
+
+/* prima sezione */
+#loghi {
+  background-color: #f3f5f9;
 }
