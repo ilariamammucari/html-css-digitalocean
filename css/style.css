@@ -2,12 +2,12 @@
 .debug [class*='col-']{
   background-color: lightblue;
   height: 100px;
-  /* border: 1px solid lightgray; */
+  border: 1px solid black;
 }
 
 .debug_annidato [class*='col-'] {
   background-color: pink;
-  border: 1px solid black;
+  border: 1px solid red;
 }
 .debug .h_500{
   height: 500px;
@@ -17,4 +17,19 @@
 }
 .debug .h_300{
   height: 300px;
+}
+
+.debug section {
+  padding: 50px 0;
+}
+
+/* header */
+header {
+  background-color: #0067ff;
+}
+
+
+/* jumbotron */
+section .jumbo {
+  background-image: url('https://d9hhrg4mnvzow.cloudfront.net/try.digitalocean.com/developerbrand/4fae3026-bg-hero-do-v4.svg');
 }
