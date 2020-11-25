@@ -2,7 +2,12 @@
 .debug [class*='col-']{
   background-color: lightblue;
   height: 100px;
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
+}
+
+.debug_annidato [class*='col-'] {
+  background-color: pink;
+  border: 1px solid black;
 }
 .debug .h_500{
   height: 500px;
