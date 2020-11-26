@@ -138,6 +138,19 @@ section .jumbo small a {
   padding: 50px 0;
 }
 
+#loghi img {
+  height: 60px;
+  vertical-align: middle;
+}
+
+
+#splunk {
+  padding: 10px 0;
+}
+
+
+
+
 #loghi a i {
   vertical-align: middle;
 }
