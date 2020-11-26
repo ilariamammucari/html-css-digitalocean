@@ -26,22 +26,122 @@
 .debug section {
   padding: 30px 0;
 }
-/* header */
 
+.c_white {
+  color: white;
+}
+/* header */
+header  {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+header nav img {
+  width: 100%;
+}
+
+header nav .btn {
+  border: 1px solid #0049ff;
+}
+
+header nav {
+  line-height: 80px;
+}
 /* jumbotron */
 section .jumbo {
+  margin-top: 90px;
+  padding: 20px 0;
   background-image: url('../img/bg-home-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 100%;
+  position: relative;
 }
+
+h1 {
+  font-size: 48px;
+}
+
+section .jumbo p {
+  padding-right: 30px;
+}
+
+section .jumbo .finestra {
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1%;
+  padding: 10px;
+}
+
+section .jumbo h2 {
+  color: #131c33;
+  font-size: 25px;
+}
+
+section .jumbo span {
+  color: #0049ff;
+}
+section .jumbo .form {
+  padding: 0 30px;
+  margin-top: 30px;
+}
+
+section .jumbo .form input {
+  width: 100%;
+  color: black;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 3%;
+}
+  
+section .jumbo .form button {
+  width: 100%;
+  background-color: #4a7dfd;
+  margin-bottom: 5px;
+}
+
+section .jumbo .form button a {
+  color: white;
+}
+
+section .jumbo .form .btn-google {
+  background-color: white;
+  border: 1px solid lightgray;
+  ma
+}
+
+section .jumbo .form .btn-google a {
+  color: gray;
+}
+
+section .jumbo small {
+  color: #131c33;
+}
+
+section .jumbo small a {
+  text-decoration: underline;
+}
+
 
 /* main */
 
 /* prima sezione */
 #loghi {
   background-color: #f3f5f9;
+  padding: 50px 0;
 }
+
+#loghi a i {
+  vertical-align: middle;
+}
+
 
 /* terza sezione */
 #designed {
