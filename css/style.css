@@ -149,10 +149,37 @@ section .jumbo small a {
 }
 
 
-
-
 #loghi a i {
   vertical-align: middle;
+}
+
+/* seconda sezione */
+#deploy h2 {
+  color: #131c33;
+  margin-top: 80px;
+}
+
+#deploy .p_principale {
+  padding: 0 100px;
+  color: grey;
+  margin-bottom: 50px;
+}
+
+#deploy li {
+  font-size: 20px;
+  color: grey;
+  line-height: 2.5;
+  border-left: 2px solid lightgrey;
+  padding-left: 10px;
+}
+
+#deploy ul {
+  margin-bottom: 30px;
+}
+
+#deploy .box p {
+  padding-right: 150px;
+  margin-bottom: 50px;
 }
 
 
