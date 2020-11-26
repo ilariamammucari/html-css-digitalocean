@@ -50,7 +50,7 @@ header  {
 }
 
 header nav img {
-  width: 100%;
+  height: 30px;
 }
 
 header nav .btn {
@@ -230,6 +230,21 @@ section .jumbo small a {
   color: #0049ff;
   margin-bottom: 10px;
 }
+
+/* quarta sezione */
+#features .box_features {
+  margin: 30px 0;
+}
+
+#features .box_features a {
+  font-size: 15px;
+}
+
+#features .box_features a i {
+  vertical-align: middle;
+}
+
+
 
 /* quinta sezione */
 #customers {
