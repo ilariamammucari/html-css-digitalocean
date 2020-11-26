@@ -30,6 +30,14 @@
 .c_white {
   color: white;
 }
+
+.c_blue {
+  color: #131c33;
+}
+
+.c_grey {
+  color: grey;
+}
 /* header */
 header  {
   width: 100%;
@@ -180,12 +188,47 @@ section .jumbo small a {
 #deploy .box p {
   padding-right: 150px;
   margin-bottom: 50px;
+  color: grey;
+}
+
+#deploy .box h4 {
+  color: #131c33;
 }
 
 
 /* terza sezione */
 #designed {
   background-color: #f3f5f9;
+}
+
+#designed h2 {
+  color: #131c33;
+  margin-top: 50px;
+}
+
+#designed .col-xs-12:first-child{
+  margin-bottom: 40px;
+}
+
+
+#designed img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#designed i {
+  font-size: 30px;
+  line-height: 7;
+}
+
+#designed .fa-chevron-right {
+  margin-left: 18px;
+}
+
+#designed .fa-circle {
+  font-size: 10px;
+  color: #0049ff;
+  margin-bottom: 10px;
 }
 
 /* quinta sezione */
