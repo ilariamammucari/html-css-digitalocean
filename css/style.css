@@ -331,4 +331,27 @@ section .jumbo small a {
 
 .footer_bottom {
   background-color: #131c33;
+  padding: 80px 0;
+}
+
+.footer_bottom .fa-digital-ocean {
+  font-size: 40px;
+  color: #0049ff;
+  margin-bottom: 10px;
+}
+
+.footer_bottom ul li i {
+  font-size: 25px;
+}
+
+.footer_bottom .info_list li {
+  line-height: 1.6;
+}
+
+.footer_bottom .info_list li:first-child {
+  font-size: 20px;
+}
+
+.footer_bottom .info_list li:not(:first-child) {
+  color: grey;
 }
