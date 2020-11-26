@@ -35,6 +35,10 @@
   color: #131c33;
 }
 
+.c_lightblue {
+  color: #33bfd8;
+}
+
 .c_grey {
   color: grey;
 }
@@ -249,11 +253,63 @@ section .jumbo small a {
 /* quinta sezione */
 #customers {
   background-color: #0049ff;
+  padding: 50px 0;
+}
+
+
+
+.customers_column .customers:not(:last-child) {
+  border-bottom: 2px solid white;
+}
+
+
+.customers_column {
+  padding: 0 30px;
+  line-height: 2.5;
 }
 
 /* sesta sezione */
 #development {
   background-color: #f3f5f9;
+}
+
+#development .finestra {
+  width: 100%;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 2%;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+#development img {
+  width: 100%;
+}
+
+#development p {
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+#development h5 {
+  margin-bottom: 20px;
+}
+
+#development i {
+  vertical-align: middle;
+}
+
+#development .col-sm-1 {
+  margin-top: 250px;
+}
+
+#development .col-sm-1:last-child {
+  margin-left: 30px;
+}
+
+#development .pallini {
+  margin: 30px 0 50px;
+  color: #0049ff;
 }
 
 /* footer */
