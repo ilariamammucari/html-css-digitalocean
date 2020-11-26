@@ -399,11 +399,13 @@ section .jumbo small a {
   right: 10%;
 }
 
-.chat {
+.chat .finestrella {
+  color: #131c33;
   background-color: white;
   border: 1px solid grey;
   border-radius: 2%;
-  padding: 15px;
+  padding: 10px 20px;
   margin-right: 5px;
 }
+
 
