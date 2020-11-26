@@ -315,7 +315,19 @@ section .jumbo small a {
 /* footer */
 .footer_top {
   background-color: #0049ff;
+  padding: 50px 0;
 }
+
+.footer_top h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.footer_top button {
+  color: #0049ff;
+  padding: 10px;
+}
+
 
 .footer_bottom {
   background-color: #131c33;
