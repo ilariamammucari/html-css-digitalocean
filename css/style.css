@@ -368,3 +368,42 @@ section .jumbo small a {
 .footer_bottom .info_list li:not(:first-child) {
   color: grey;
 }
+
+/* shark */
+.shark {
+  position: fixed;
+  right: 0;
+  bottom: 10%;
+  z-index: 2;
+}
+
+.chat {
+  position: fixed;
+  right: 0;
+  bottom: 2%;
+  z-index: 2;
+}
+
+.shark img {
+  height: 10%;
+}
+
+.shark span {
+  padding: 10px 15px;
+  color: white;
+  background-color: red;
+  border: 8px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+
+.chat {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 2%;
+  padding: 15px;
+  margin-right: 5px;
+}
+
