@@ -221,8 +221,11 @@ section .jumbo small a {
 }
 
 #designed i {
-  font-size: 30px;
-  line-height: 7;
+  font-size: 20px;
+}
+
+#designed .col-sm-1 {
+  margin-top: 85px;
 }
 
 #designed .fa-chevron-right {
