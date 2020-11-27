@@ -161,18 +161,12 @@ section .jumbo small a {
 }
 
 #loghi img {
-  height: 60px;
+  height: 70px;
   vertical-align: middle;
 }
-
 
 #splunk {
   padding: 10px 0;
-}
-
-
-#loghi a i {
-  vertical-align: middle;
 }
 
 /* seconda sezione */
